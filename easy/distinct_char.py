@@ -8,11 +8,20 @@ class Solution(object):
     :type s: str
     :rtype: arr
     """
-    # result = []
-    # for char in s:
-    #   if char not in result:
-    #     result.append(char)
-    # return result
+    # stack = []
+    # for index, char in enumerate(s):
+    #   if not stack:
+    #     stack.append(char)
+    #   elif char in stack:
+    #     continue
+    #   else:
+    #     while stack and (char < stack[-1]):
+    #       if stack[-1] in s[index + 1]:
+    #         _ = stack.pop()
+    #       else:
+    #         break
+    #     stack.append(char)
+    # return "".join(stack)
     n = len(s)
     result = ""
     for i in range(0, n):
