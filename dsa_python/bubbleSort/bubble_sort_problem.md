@@ -1,4 +1,4 @@
-### Bubble Sort Exercise
+# Problem: Bubble Sort
 
 Modify `bubble_sort` function such that it can sort following list of transactions happening in an electronic store,
 ```
