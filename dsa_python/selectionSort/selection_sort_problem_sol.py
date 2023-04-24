@@ -36,7 +36,7 @@ if __name__ == '__main__':
     ]
 
     print(f'Given unsorted array:', *elements, sep='\n')
-    multilevel_sort(
+    multi_level_sort(
         elements, 
         ['First Name', 'Last Name']
     )
